@@ -93,15 +93,16 @@
   justify-content: space-between;
 }
 
-.two-columns_brief {
+.two-columns__brief {
   max-width: 175px;
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
   text-align: left;
+  color: #2f80ed;
 }
 
-.two-columns_main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
   display: flex;
@@ -109,7 +110,7 @@
   justify-content: space-between;
 }
 
-.two-columns_paragraph {
+.two-columns__paragraph {
 padding: 0 0 30px;
 margin: 0;
 line-height: 34px;
@@ -117,9 +118,9 @@ font-size: 24px;
 text-align: left;
 }
 
-.two-columns_paragraph:last-child {  padding-bottom: 0;}
+.two-columns__paragraph:last-child {  padding-bottom: 0;}
 
-.two-columns_span-accent {
+.span-accent {
   font-weight: bold;
 }
 
@@ -161,13 +162,13 @@ text-align: left;
   justify-content: space-between;
 }
 
-.table_cell {
+.table__cell {
   list-style-type: none;
   width: 250px;
   padding: 60px 0 0;
 }
 
-.table_heading {
+.table__heading {
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -239,7 +240,6 @@ text-align: left;
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
-  z-index: -2;
 }
 
 .section-title_theme_dark {
@@ -252,14 +252,14 @@ text-align: left;
   z-index: 1;
 }
 
-
 /* и элемента с модификатором вида ключ-значение */
-.table_cell_theme_dark {
+.table__cell_theme_dark {
   list-style-type: none;
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -272,7 +272,6 @@ text-align: left;
   position: absolute;
   right: -210px;
   top: 0;
-  z-index: -1;
 }
 
 .footer {
@@ -291,10 +290,13 @@ text-align: left;
   padding-bottom: 40px;
 }
 
-.footer__column_content_copyright{
-  flex-basis: 711px;
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright{
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
@@ -311,20 +313,14 @@ text-align: left;
 }
 
 .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
   justify-content: start;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
   justify-content: start;
 }
 
 .footer__column-links {
-  display: flex;
-  flex-direction: column;
   padding-top: 20px;
   padding-bottom: 16px;
 }
