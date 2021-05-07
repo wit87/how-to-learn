@@ -3,9 +3,9 @@
     background-color: #1f1f1f;
     color: white;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     padding-top: 60px;
-    padding-bottom: 40px; 
+    padding-bottom: 40px;
   }
   
   .footer__columns {
@@ -34,7 +34,7 @@
     padding: 18px 0;
     line-height: 25px;
     font-size: 18px;
-    font-weight: normal; 
+    font-weight: normal;
   }
   
   .footer__column_content_info {
@@ -54,7 +54,7 @@
     margin: 0;
     line-height: 30px;
     font-size: 18px;
-    font-weight: bold;  
+    font-weight: bold; 
   }
   
   .footer__column-link {
