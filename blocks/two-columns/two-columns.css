@@ -1,0 +1,40 @@
+.two-columns {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .two-columns__brief {
+    max-width: 175px;
+    margin: 0;
+    line-height: 1.2;
+    font-size: 18px;
+    text-align: left;
+    color: #2f80ed;
+    font-weight: normal;  
+  }
+  
+  .two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .two-columns__paragraph {
+  padding: 0 0 30px;
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  text-align: left;  
+  }
+  
+  .two-columns__paragraph:last-child {  
+    padding-bottom: 0;}
+  
+  .two-columns__span-accent {
+    font-weight: bold;
+  }
