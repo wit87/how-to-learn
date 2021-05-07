@@ -5,8 +5,8 @@
     to {
         transform: rotate(360deg);
     }
-} 
+}
 
-.rotation-360-20 {
+.rotation {
     animation: rotation-360 20s linear infinite;
 }
