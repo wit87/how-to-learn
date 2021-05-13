@@ -1,5 +1,5 @@
 .section-subtitle {
-    max-width: 60%;
+    min-width: 60%;
     margin: 0;
     line-height: 34px;
     font-size: 24px;
